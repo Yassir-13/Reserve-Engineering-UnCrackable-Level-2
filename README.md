@@ -68,8 +68,3 @@ Si les deux chaînes correspondent, la fonction retourne **true** et l’applica
 Finalement, nous vérifions la chaîne que nous avons trouvée (**Thanks for all the fish**), ce qui retourne un résultat positif.
 
 ![9](lst.png)
-
-
-L’application retourne alors un résultat positif.
-
-![9](lst.png)
