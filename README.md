@@ -32,12 +32,9 @@ Nous avons commencé par lancer **JADX-GUI** afin d’analyser statiquement notr
 Le point de départ est naturellement la classe **MainActivity**, car c’est le point de départ de la logique côté interface.  
 C’est à cet endroit que l’entrée utilisateur est récupérée puis envoyée à la logique de vérification.
 
-![2](2.png)
-
----
-
 On trouve cette fonction qui récupère la valeur saisie par l’utilisateur et appelle une méthode de vérification. Si la valeur correspond au secret attendu, un message de succès est affiché. Sinon, l’application indique que la réponse est incorrecte.
 
+![2](2.png)
 ![3](3.png)
 
 Nous suivons ensuite simplement la logique des classes pour trouver la fonction **"CodeCheck"**, qui nous donne un premier indice indiquant que l’application utilise du **code natif** (mot-clé `native`), généralement écrit en **C ou C++**.  
